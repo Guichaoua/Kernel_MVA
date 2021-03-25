@@ -78,4 +78,4 @@ for num in range(3):
 
 Q = np.reshape(T,3000)
 Q = [[i,Q[i]] for i in range(3000)]
-np.savetxt('GUICHAOUA_k10.csv', Q , delimiter=',', fmt = '%i',header = 'Id,Bound',comments='')
+np.savetxt('Yte.csv', Q , delimiter=',', fmt = '%i',header = 'Id,Bound',comments='')
